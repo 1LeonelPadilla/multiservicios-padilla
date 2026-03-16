@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, Phone, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import logoImg from '../assets/logo.1.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <a href="#inicio" className="flex items-center gap-3">
               <div className="bg-white p-1 rounded-sm w-12 h-12 flex items-center justify-center">
-                <img src="/logo.png" alt="Multi Servicios" className="max-w-full max-h-full object-contain" />
+                <img src={logoImg} alt="Multi Servicios" className="max-w-full max-h-full object-contain" />
               </div>
               <span className="hidden sm:block text-white font-heading font-black text-xl tracking-tighter">
                 MULTI SERVICIOS <span className="text-industrial-yellow">PADILLA</span>
