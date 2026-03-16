@@ -1,4 +1,5 @@
 import { Phone, MapPin, Mail, Clock } from 'lucide-react';
+import logoImg from '../assets/logo1.png';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           <div>
             <a href="#inicio" className="inline-block mb-4">
               <div className="bg-white p-2 rounded-sm w-48 flex items-center justify-center">
-                <img src="/logo.png" alt="Multi Servicios Padilla" className="w-full h-auto object-contain" />
+                <img src={logoImg} alt="Multi Servicios Padilla" className="w-full h-auto object-contain" />
               </div>
             </a>
             <p className="text-gray-400 mb-6 max-w-sm">
