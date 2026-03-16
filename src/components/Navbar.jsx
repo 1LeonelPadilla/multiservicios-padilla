@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center gap-3">
             <a href="#inicio" className="flex items-center gap-3">
               <img src={logoImg} alt="Multi Servicios" className="h-12 w-auto object-contain" />
-              <span className="text-white font-heading font-black text-xl tracking-tighter">
+              <span className="text-white font-heading font-black text-lg md:text-xl tracking-tighter">
                 MULTI SERVICIOS <span className="text-industrial-yellow">PADILLA</span>
               </span>
             </a>
