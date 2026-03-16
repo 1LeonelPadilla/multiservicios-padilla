@@ -30,12 +30,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center">
+          <div className="flex-shrink-0 flex items-center gap-3">
             <a href="#inicio" className="flex items-center gap-3">
-              <div className="bg-white p-1 rounded-sm w-12 h-12 flex items-center justify-center">
-                <img src={logoImg} alt="Multi Servicios" className="max-w-full max-h-full object-contain" />
-              </div>
-              <span className="hidden sm:block text-white font-heading font-black text-xl tracking-tighter">
+              <img src={logoImg} alt="Multi Servicios" className="h-12 w-auto object-contain" />
+              <span className="text-white font-heading font-black text-xl tracking-tighter">
                 MULTI SERVICIOS <span className="text-industrial-yellow">PADILLA</span>
               </span>
             </a>

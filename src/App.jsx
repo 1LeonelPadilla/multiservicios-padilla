@@ -1,15 +1,15 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
-import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Services from './components/Services';
 
 function App() {
   return (
-    <div className="bg-industrial-light min-h-screen relative overflow-hidden font-sans">
+    <div className="bg-industrial-light min-h-screen relative overflow-x-hidden font-sans">
       <Navbar />
       <main>
         <Hero />
